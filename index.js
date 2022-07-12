@@ -77,9 +77,19 @@ console.log(howWasJourny('London',2,'spain'))
 
 
 //Return the first and last elements in this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
-//Add ‘orange’ to the end of this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
+
 
 let fruits = ['red', 'yellow', 'green', 'blue']
 
 
 console.log(fruits.slice(0,1),fruits.slice(-1))
+
+
+//Add ‘orange’ to the end of this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
+
+
+let moreFruits = ['red', 'yellow', 'green', 'blue']
+
+
+const addFruit = moreFruits.push('orange')
+console.log(moreFruits)
