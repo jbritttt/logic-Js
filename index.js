@@ -93,3 +93,12 @@ let moreFruits = ['red', 'yellow', 'green', 'blue']
 
 const addFruit = moreFruits.push('orange')
 console.log(moreFruits)
+
+
+//console.log the third element in this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
+
+const colors = ['red', 'yellow', 'green', 'blue']
+
+console.log(colors[2])
+
+
