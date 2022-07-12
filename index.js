@@ -74,3 +74,12 @@ function howWasJourny(country,fLength,final){
 }
 
 console.log(howWasJourny('London',2,'spain'))
+
+
+//Return the first and last elements in this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
+//Add ‘orange’ to the end of this array [‘red’, ‘yellow’, ‘green’, ‘blue’]
+
+let fruits = ['red', 'yellow', 'green', 'blue']
+
+
+console.log(fruits.slice(0,1),fruits.slice(-1))
