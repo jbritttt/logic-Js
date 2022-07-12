@@ -55,3 +55,22 @@ let str2 = '45'
 
 console.log(parseFloat(str2))
 
+
+
+//Find the minimum value in this array [23123, 2, -328, 0]
+
+let numbers = [23123, 2, -328, 0]
+console.log(Math.min(...numbers))
+
+
+/*Write a function that takes three inputs. One should be a country, one should be the length of flight to get there and one the final should be the place where someone lives. The function should return a sentence that describes the person's journey.
+Adapt your function to assume that someone always starts their journey in London.*/
+
+
+function howWasJourny(country,fLength,final){
+
+
+    return `It has taken ${fLength} hours to fly from ${country} to ${final}`
+}
+
+console.log(howWasJourny('London',2,'spain'))
